@@ -6,7 +6,7 @@ function onChangeLocalStorage() {
 }
 
 function onChangeSessionStorage() {
-  sessionStorageText.textContent = localStorage.getItem('mySessionStorage');
+  sessionStorageText.textContent = sessionStorage.getItem('mySessionStorage');
 }
 
 onChangeLocalStorage()
