@@ -1,0 +1,21 @@
+{
+  "name": "playwright-local-session-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taohuh/playwright-local-session-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taohuh/playwright-local-session-storage/issues"
+  },
+  "homepage": "https://github.com/taohuh/playwright-local-session-storage#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
