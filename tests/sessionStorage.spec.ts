@@ -10,5 +10,5 @@ test('User able to see data from session storage correctly', async ({ page }) =>
   // Make magic happen!
   await page.reload()
 
-  await expect(page.locator('[data-testid="session-storage-container"]')).toHaveText(`It's from session storage: Bello`)
+  await expect(page.locator('[data-testid="session-storage-container"]')).toHaveText(`It's from session storage: Hungry!! 🍖`)
 })
