@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-open": "npx playwright test --headed"
+    "test-open": "npx playwright test --headed",
+    "allure:generate": "npx allure generate ./allure-results --clean",
+    "allure:open": "npx allure open ./allure-report",
+    "allure:serve": "npx allure serve",
+    "test": "npx playwright test",
+    "posttest": "npm run allure:generate"
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,8 @@
   },
   "homepage": "https://github.com/taohuh/playwright-local-session-storage#readme",
   "devDependencies": {
-    "@playwright/test": "^1.25.0"
+    "@playwright/test": "^1.25.0",
+    "allure-commandline": "^2.18.1",
+    "experimental-allure-playwright": "^0.0.3"
   }
 }
